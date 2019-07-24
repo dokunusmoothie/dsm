@@ -45,48 +45,72 @@
     			margin-top: 40px !important;
     			width: 60% !important;
     		}
-    	} 
+        }
+
+        @media (min-width: 992px){
+.portfolio-item:hover .caption {
+    background-color: rgba(244, 201, 21, 0.79);
+}
+}
+
+.portfolio-item .caption .caption-content:hover{
+    color: #000000;
+}
+
+header a i:hover {
+    color: #ad4f54!important;
+}
+
+/* .color-overlay {
+    background-color: #000;
+    opacity: .6;
+
+}*/
+
+
     </style>
 </head>
 
 <body id="page-top"><a class="menu-toggle rounded" href="#sidebar-nav"><i class="fa fa-bars"></i></a>
-    <nav class="navbar navbar-light navbar-expand" id="sidebar-wrapper">
+    <nav class="navbar navbar-light navbar-expand" id="sidebar-wrapper" style="background-color: #feda2c;">
         <div class="container"><button data-toggle="collapse" class="navbar-toggler d-none" data-target="#"></button>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav sidebar-nav" id="sidebar-nav">
-                    <li class="nav-item sidebar-brand" role="presentation"><a class="nav-link active js-scroll-trigger" href="#page-top">D. SMOOTHIE</a></li>
-                    <li class="nav-item sidebar-nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#page-top">Home</a></li>
-                    <li class="nav-item sidebar-nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item sidebar-nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
-                    <li class="nav-item sidebar-nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#portfolio">Our Flavours</a></li>
-                    <li class="nav-item sidebar-nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    <li class="nav-item sidebar-brand" role="presentation"><a class="nav-link active js-scroll-trigger" style="color: #000;" href="#page-top">D. SMOOTHIE</a></li>
+                    <li class="nav-item sidebar-nav-item" role="presentation"><a class="nav-link js-scroll-trigger" style="color: #000;" href="#page-top">Home</a></li>
+                    <li class="nav-item sidebar-nav-item" role="presentation"><a class="nav-link js-scroll-trigger" style="color: #000;" href="#about">About</a></li>
+                    <li class="nav-item sidebar-nav-item" role="presentation"><a class="nav-link js-scroll-trigger" style="color: #000;" href="#services">Services</a></li>
+                    <li class="nav-item sidebar-nav-item" role="presentation"><a class="nav-link js-scroll-trigger" style="color: #000;" href="#portfolio">Our Flavours</a></li>
+                    <li class="nav-item sidebar-nav-item" role="presentation"><a class="nav-link js-scroll-trigger" style="color: #000;" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <header class="d-flex masthead" style="/*background-color: #fac005; */background-image: url(assets/img/dokunu.jpg)!important; ">
-        <div class="container-fluid my-auto text-center"><img class="img-fluid mb-auto bounce animated" src="assets/img/logo.png" style="margin-top: -100px;" width="37%;">
+        <div class="container-fluid my-auto text-center"><img class="img-fluid mb-auto bounce animated" src="assets/img/logo1.png" style="margin-top: -100px;" width="37%;">
            <!--  <h1 class="text-center mb-1" style="color: white;">Dokunu Smoothie</h1>
-            <h3 class="mb-5" style="color: white;"><em>...freshness you can taste!</em></h3> --><center><a class="btn btn- btn-xl js-scroll-trigger" role="button" href="#about" style="display: block; width: 50%; margin-top:20px; background-color: #484e5029; color: #fff; border-color: #524f4f40; ">Find Out More</a></center>
-            <div class="overlay>"</div>
+            <h3 class="mb-5" style="color: white;"><em>...freshness you can taste!</em></h3> --> 
+            <center><a class="js-scroll-trigger" href="#about"><i class="icon ion-android-arrow-dropdown-circle" style="font-size: 70px; color: #151b1d7a;"></i></a></center>   
+
+            <div class="overlay"></div>
         </div>
     </header>
-    <section id="about" class="content-section bg-light">
+    <section id="about" class="content-section bg-" style="background-color: #fff;">
         <div class="container text-center">
             <div class="row">
                 <div class="col-lg-10 mx-auto">
                     <h2 >Who We Are </h2>
-                    <p class="lead mb-5"><span>Dokunu Smoothie is a collective idea of a group of friends to make no ordinary <br> <strong style="color: #ff007b;">Ice Kenkey.</strong> <br> Our goal is to give our customers several nutrients in a single meal. Our customers are our interest, and for that matter we care for their nutritional status and <b>wellbeing</b>.
+                    <p class="lead mb-5"><span>Dokunu Smoothie is a collective idea of a group of friends to make no ordinary <br> <strong style="color: #ff007b; font-size: 32px;">Ice Kenkey.</strong> <br> Our goal is to give our customers several nutrients in a single meal. Our customers are our interest, and for that matter we care for their nutritional status and <b>wellbeing</b>.
 </p>
 
                         <a class="btn btn-dark btn-xl js-scroll-trigger" role="button" href="#services">What We Offer</a></div>
             </div>
         </div>
     </section>
-    <section id="services" class="content-section bg-primary text-white text-center">
+    <section id="services" class="content-section bg- text-black text-center" style="background-color: #fed301d4">
         <div class="container">
             <div class="content-section-heading">
-                <h3 class="text-secondary mb-0">Services</h3>
+                <h3 class="text- mb-0" style="color: #ff007b; ">Services</h3>
                 <h2 class="mb-5">What We Offer</h2>
             </div>
             <div class="row">
@@ -96,16 +120,16 @@
                 </div> -->
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-calendar" style="color: #ff007b;"></i></span>
                     <h4><strong>Events</strong></h4>
-                    <p class="mb-0 text-faded">Have an event? We are here to make your guests happy</p>
+                    <p class="mb-0  text-black">Have an event? We are here to make your guests happy</p>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-direction" style="color: #ff007b"></i></span>
                     <h4><strong>Sale Stands</strong></h4>
-                    <p class="mb-0 text-faded">Find us closer to you anywhere in the region<!-- <i class="fa fa-heart"></i><span>&nbsp;us!</span> --></p>
+                    <p class="mb-0 text-black">Find us closer to you anywhere in the region<!-- <i class="fa fa-heart"></i><span>&nbsp;us!</span> --></p>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0"><span class="mx-auto service-icon rounded-circle mb-3"><i class="icon-basket" style="color: #ff007b;"></i></span>
                     <h4><strong>Delivery</strong></h4>
-                    <p class="mb-0 text-faded">Make an order and we will bring it to your doorstep</p>
-                    <p class="mb-0 text-faded">Coming soon!</p>
+                    <p class="mb-0 text-black">Make an order and we will bring it to your doorstep</p>
+                    <p class="mb-0 text-black">Coming soon!</p>
                 </div>
             </div>
         </div>
@@ -115,7 +139,7 @@
             <h2 class="mx-auto mb-5" style="color: #fff;"><span>Made from our</span><em>&nbsp;own</em><span><br>trusted kenkey !<br></span></h2><a class="btn btn-primary btn-xl" role="button" href="#">Order Now!</a></div>
     </section> -->
    
-    <section class="">
+    <section class="" >
        <div class="bd-example">
   <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -125,24 +149,26 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
+        <div class="color-overlay">
         <img src="assets/img/DS11.jpg" class="d-block w-100" alt="">
+        </div>
         <div class="carousel-caption d-none d-md-block">
           <h5>At Your Comfort</h5>
-          <p style="color: #ff007b;">Have a cup of Dokunu Smoothie at your me time</p>
+          <p style="color: #fed301;">Have a cup of Dokunu Smoothie at your me time</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="assets/img/DS22.jpg" class="d-block w-100" alt="">
         <div class="carousel-caption d-none d-md-block">
           <h5>Anytime</h5>
-          <p style="color: #ff007b;">Feel the magic Chocolate-flavoured Dokunu Smoothie</p>
+          <p style="color: #fed301;">Feel the magic Chocolate-flavoured Dokunu Smoothie</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="assets/img/DS33.jpg" class="d-block w-100" alt="">
         <div class="carousel-caption d-none d-md-block">
           <h5>Being Passionate</h5>
-          <p style="color: #ff007b;">Have a sip of your life with Dokunu Smoothie</p>
+          <p style="color: #fed301;">Have a sip of your life with Dokunu Smoothie</p>
         </div>
       </div>
     </div>
@@ -159,7 +185,7 @@
     </section>
 
 
-    <section id="portfolio" class="content-section">
+    <section id="portfolio" class="content-section" style="background-color: #fff;">
         <div class="container">
             <div class="content-section-heading text-center">
                 <h3 class="text-secondary mb-0">Flavours</h3>
@@ -196,7 +222,7 @@
             </div>
         </div>
     </section>
-    <section class="content-section bg-primary text-white">
+    <section class="content-section bg- text-black" style="background-color: #fed301d4">
         <div class="container text-center">
             <h2 class="mb-4">Want To Try Dokunu Smoothie?</h2><a class="btn btn-light btn-xl mr-4" role="button" href=https://api.whatsapp.com/send?phone=233278627525>Whatsapp</a><a class="btn btn-dark btn-xl mr-4" role="button" href="tel:00233278627525">Call Now</a></div>
     </section>
@@ -241,7 +267,7 @@
                     </div> -->
                     <div class="col-lg-3 item social">
                     	<h3>Follow Us</h3>
-                    	<a href="http://www.facebook.com/dokunusmoothie" target="blank"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com/dokunusmoothie" target="blank"<i class="icon ion-social-twitter"></i></a><a href="https://www.instagram.com/dokunu_smoothie/" target="blank"><i class="icon ion-social-instagram"></i></a>
+                    	<a href="http://www.facebook.com/dokunusmoothie" target="blank"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com/dokunusmoothie" target="blank"><i class="icon ion-social-twitter"></i></a><a href="https://www.instagram.com/dokunu_smoothie/" target="blank"><i class="icon ion-social-instagram"></i></a><a href="https://www.youtube.com/channel/UCM3oUAEuSesV6HyZ-XiV9UQ?view_as=subscriber" target="blank"><i class="icon ion-social-youtube"></i></a>
                        
                     <a class="js-scroll-trigger scroll-to-top rounded" href="#page-top"><i class="fa fa-angle-up"></i></a>
                     </div>
