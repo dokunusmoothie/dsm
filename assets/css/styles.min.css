@@ -1,1 +1,30 @@
 .masthead h1{color:#000}
+
+@media only screen
+    	 and (max-width:600px){
+    	 	header{
+    	 		height: 50% !important
+    	 	}
+    		header img{
+    				margin-top: -30px !important;
+    				width: 75% !important;
+    		}
+    		header a{
+    			margin-top: 40px !important;
+    			width: 60% !important;
+    		}
+        }
+
+        @media (min-width: 992px){
+.portfolio-item:hover .caption {
+    background-color: rgba(244, 201, 21, 0.79);
+}
+}
+
+.portfolio-item .caption .caption-content:hover{
+    color: #000000;
+}
+
+header a i:hover {
+    color: #ad4f54!important;
+}
