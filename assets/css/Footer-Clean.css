@@ -65,6 +65,22 @@
   opacity: 0.9;
 }
 
+.ion-social-facebook:hover{
+  color: #3b5998;
+}
+
+.ion-social-twitter:hover{
+  color: #6dc5dd;
+}
+
+.ion-social-instagram:hover{
+  color: #6dc993;
+}
+
+.ion-social-youtube:hover{
+  color: #ff0000;
+}
+
 @media (max-width:991px) {
   .footer-clean .item.social > a {
     margin-top: 40px;
